@@ -17,6 +17,33 @@ h3 {
     text-align: center;
 }
 
+.recipes {
+    text-align: center;
+}
+
+.recipes ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipes li a {
+    font-size: 40px;
+  text-decoration: none;
+  display: block;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.recipes li a:hover {
+  font-size: 50px;
+  background: #f6f6f6;
+}
+
 .description, .steps {
     float: left;
     width: 700px;
