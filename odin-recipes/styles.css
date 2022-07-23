@@ -1,0 +1,38 @@
+h1 {
+    color: blanchedalmond;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large  ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img {
+    max-width: 500px;
+    max-height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px blanchedalmond;
+}
+
+h3 {
+    text-align: center;
+}
+
+.description, .steps {
+    float: left;
+    width: 700px;
+}
+
+.description {
+    background-color: darksalmon;
+    color:rgb(55, 47, 34)
+}
+
+.steps {
+    background-color: darkkhaki;
+    color:rgb(73, 64, 45);
+    box-shadow: 0px 0px 1000px pink inset;
+}
+
+body {
+    background-color: darkolivegreen;
+}
