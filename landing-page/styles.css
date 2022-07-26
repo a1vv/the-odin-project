@@ -1,8 +1,8 @@
 :root {
-    --side-padding: 48px;
+    --side-padding: 128px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     display: flex;
@@ -33,7 +33,6 @@ ul {
 .header-links {
     display: flex;
     gap: 16px;
-    color: #E5E7EB;
 }
 
 .one {
@@ -52,8 +51,14 @@ ul {
 
 .awesome h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 700;
     margin: 0;
+}
+
+.awesome p, .header-links {
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .image {
@@ -103,7 +108,7 @@ a {
 }
 
 .image-box {
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 7px;
     height: 140px;
     width: 140px;
