@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 16px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    border: 0;
+    border-radius: 8px;
+    width:fit-content
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
