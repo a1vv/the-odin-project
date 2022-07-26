@@ -1,13 +1,22 @@
+:root {
+    --side-padding: 48px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
-    padding: 16px;
+    padding: 16px var(--side-padding);
 }
 
 .header-logo {
@@ -29,12 +38,22 @@ body {
     color: #F9FAF8;
     display: flex;
     gap: 16px;
+    padding: 64px var(--side-padding);
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.awesome p {
 }
 
 .image {
