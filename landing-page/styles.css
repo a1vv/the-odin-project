@@ -1,5 +1,5 @@
 :root {
-    --side-padding: 72px;
+    --side-padding: 0px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -13,7 +13,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     padding: 16px var(--side-padding);
@@ -39,14 +39,15 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    gap: 16px;
-    padding: 82px var(--side-padding);
+    justify-content: center;
+    gap: 100px;
+    padding: 82px 16px;
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    width: 500px;
 }
 
 .awesome h1 {
@@ -56,18 +57,17 @@ ul {
 }
 
 .awesome p, .header-links {
-    margin-top: 0;
+    margin-top: 12px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .image {
-    flex: 1;
     background-color: rgb(114, 121, 131);
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
+    min-width: 400px;
 }
 
 .signup {
@@ -89,11 +89,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 64px;
+    margin: 24px;
 }
 
 .two h2 {
-    margin: 32px;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 18px;
 }
 
 .info {
@@ -125,13 +127,13 @@ a {
     color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 64px 164px;
+    padding: 32px 164px;
 }
 
 .quote {
     font-size: 32px;
     font-style: italic;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .name {
@@ -147,8 +149,8 @@ a {
     align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 54px var(--side-padding);
-    padding: 44px 0;
+    margin: 54px 148px;
+    padding: 44px 16px;
     border-radius: 8px;
 }
 
@@ -178,5 +180,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
 }
